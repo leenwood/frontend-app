@@ -1,0 +1,38 @@
+.container--light {
+    margin-left: 150px;
+    margin-top: 50px;
+    background-color: #F9F9F9;
+    width: 750px;
+    height: 250px;
+}
+
+.container--dark {
+    height: 250px;
+    width: 750px;
+    background-color: #2B4A52;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+button {
+    margin-right: 20px;
+    margin-top: 100px;
+    margin-left: 10px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.dark--theme__radio--example {
+    background-color: #2B4A52;
+    color: #faf3c7;
+}
+
+.theme--wrapper {
+    padding: 15px;
+}
