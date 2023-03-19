@@ -36,3 +36,18 @@ button {
 .theme--wrapper {
     padding: 15px;
 }
+
+:root {
+    --base-hovered-color: #2b4a52;
+    --base-block-color: #537173;
+    --base-disabled-color: #879c9d;
+    --base-text-color: #fdfcfa;
+    --base-theme-color: #f9f9f9;
+    --base-dark-hover-color: #f3eadd;
+    --base-focused-color: #c05640;
+    --base-actived-color: #c66753;
+    --main-disabled-color: rgba(135, 156, 157, 0.7);
+    --additional-gray-color: #8f9b97;
+    --additional-blue-color: #1746a3;
+    --additional-black-color: #000;
+}
