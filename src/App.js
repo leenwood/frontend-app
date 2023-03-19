@@ -9,6 +9,7 @@ import Admin from "./pages/Admin";
 import NoPage from "./pages/NoPage";
 import Buttons from "./pages/Buttons";
 import RadioButtons from "./pages/RadioButtons";
+import Checkboxes from "./pages/Checkboxes";
 
 function App() {
     return (
@@ -16,6 +17,7 @@ function App() {
             <Routes>
                 <Route path="/" element={<Layout/>}>
                     <Route index element={<Home/>}/>
+                    <Route path="checkboxes" element={<Checkboxes/>}/>
                     <Route path="buttons" element={<Buttons/>}/>
                     <Route path="radiobuttons" element={<RadioButtons/>}/>
                     <Route path="blogs" element={<Blogs/>} />

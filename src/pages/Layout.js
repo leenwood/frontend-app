@@ -6,6 +6,9 @@ const Layout = () => {
             <nav>
                 <ul>
                     <li>
+                        <Link to="/checkboxes">Checkboxes</Link>
+                    </li>
+                    <li>
                         <Link to="/radiobuttons">Radio</Link>
                     </li>
                     <li>
