@@ -1,0 +1,99 @@
+button {
+    border: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 10px;
+    line-height: 16px;
+}
+
+/* BUTTON SIZE */
+
+button.extra--large {
+    height: 48px;
+    width: 161px;
+    font-size: 16px;
+}
+
+button.large {
+    height: 42px;
+    width: 128px;
+    font-size: 14px;
+}
+
+button.medium {
+    height: 33px;
+    width: 111px;
+    font-size: 10px;
+    border-radius: 8px;
+}
+
+button.small {
+    height: 28px;
+    width: 94px;
+    font-size: 8px;
+    border-radius: 7px;
+}
+
+button.extra--small {
+    height: 24px;
+    width: 80px;
+    font-size: 8px;
+    border-radius: 6px;
+}
+
+/* LIGHT THEME */
+
+button.light--theme {
+    color: #F9F9F9;
+}
+
+button.light--theme:enabled {
+    background-color: #537173;
+}
+
+button.light--theme:hover {
+    background-color: #2B4A52;
+}
+
+button.light--theme:focus {
+    background-color: #C05640;
+}
+
+button.light--theme:active {
+    background-color: #C66753;
+}
+
+button.light--theme:disabled {
+    background-color: #879C9D;
+}
+
+
+/* DARK THEME */
+
+button.dark--theme {
+    color: #2B4A52;
+}
+
+button.dark--theme:enabled {
+    background-color: #F9F9F9;
+}
+
+button.dark--theme:hover {
+    background-color: #F3EADD;
+}
+
+button.dark--theme:focus {
+    background-color: #C05640;
+    color: #F9F9F9;
+}
+
+button.dark--theme:active {
+    background-color: #C66753;
+    color: #F9F9F9;
+}
+
+button.dark--theme:disabled {
+    background-color: #879C9D;
+    color: #F9F9F9;
+}

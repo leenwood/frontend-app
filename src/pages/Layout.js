@@ -6,6 +6,15 @@ const Layout = () => {
             <nav>
                 <ul>
                     <li>
+                        <Link to="/checkboxes">Checkboxes</Link>
+                    </li>
+                    <li>
+                        <Link to="/radiobuttons">Radio</Link>
+                    </li>
+                    <li>
+                        <Link to="/buttons">Buttons</Link>
+                    </li>
+                    <li>
                         <Link to="/">Home</Link>
                     </li>
                     <li>

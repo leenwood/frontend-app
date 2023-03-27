@@ -1,0 +1,165 @@
+label {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+
+    position: relative;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+label.large {
+    font-size: 18px;
+    padding-left: 32px;
+}
+
+label.medium {
+    font-size: 16px;
+    padding-left: 27px;
+}
+
+label.light--theme {
+    color: #2B4A52;
+}
+
+label.dark--theme {
+    color: #F9F9F9;
+}
+
+/*  RADIO  */
+
+input[type=radio] {
+    display: none;
+}
+
+input[type=radio] + label:before {
+    content: "";
+    display: inline-block;
+    border: 1px solid #879C9D;
+    border-radius: 50%;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+}
+
+input[type=radio] + label.large:before {
+    height: 24px;
+    width: 24px;
+}
+
+input[type=radio] + label.medium:before {
+    height: 20px;
+    width: 20px;
+}
+
+input[type=radio]:disabled + label {
+    opacity: .3;
+}
+
+/*  RADIO LIGHT  */
+
+input[type=radio]:enabled + label.light--theme:hover {
+    color: #537173;
+}
+
+input[type=radio] + label.light--theme:hover:before {
+    border-color: #537173;
+    background-color: #537173;
+}
+
+input[type=radio]:checked:enabled + label.large.light--theme:hover:before {
+    border: 8px solid #537173;
+    background-color: transparent;
+}
+
+input[type=radio]:checked:enabled + label.medium.light--theme:hover:before {
+    border: 6px solid #537173;
+    background-color: transparent;
+}
+
+input[type=radio] + label.light--theme:active:before,
+input[type=radio] + label.light--theme:focus:before {
+    border-color: #2B4A52;
+    background-color: #2B4A52;
+}
+
+input[type=radio]:checked:enabled + label.large.light--theme:active:before,
+input[type=radio]:checked + label.large.light--theme:focus:before {
+    border: 8px solid #2B4A52;
+    background-color: transparent;
+}
+
+input[type=radio]:checked:enabled + label.medium.light--theme:active:before,
+input[type=radio]:checked + label.medium.light--theme:focus:before {
+    border: 6px solid #2B4A52;
+    background-color: transparent;
+}
+
+input[type=radio]:disabled + label.light--theme:before {
+    opacity: .3;
+    background-color: transparent;
+    border: 1px solid #879C9D;
+}
+
+input[type=radio]:checked + label.large.light--theme:before {
+    border: 8px solid #C05640;
+}
+
+input[type=radio]:checked + label.medium.light--theme:before {
+    border: 6px solid #C05640;
+}
+
+/*  RADIO DARK  */
+
+input[type=radio]:enabled + label.dark--theme:hover {
+    color: #F3EADD;
+}
+
+input[type=radio] + label.dark--theme:hover:before {
+    border-color: #F3EADD;
+    background-color: #F3EADD;
+}
+
+input[type=radio]:checked:enabled + label.large.dark--theme:hover:before {
+    border: 8px solid #F3EADD;
+    background-color: #C05640;
+}
+
+input[type=radio]:checked:enabled + label.medium.dark--theme:hover:before {
+    border: 6px solid #F3EADD;
+    background-color: #C05640;
+}
+
+input[type=radio] + label.dark--theme:active:before,
+input[type=radio] + label.dark--theme:focus:before {
+    border-color: #F9F9F9;
+    background-color: #F9F9F9;
+}
+
+input[type=radio]:checked:enabled + label.large.dark--theme:active:before,
+input[type=radio]:checked + label.large.dark--theme:focus:before {
+    border: 8px solid #C05640;
+    background-color: #F9F9F9;
+}
+
+input[type=radio]:checked:enabled + label.medium.dark--theme:active:before,
+input[type=radio]:checked + label.medium.dark--theme:focus:before {
+    border: 6px solid #C05640;
+    background-color: #F9F9F9;
+}
+
+input[type=radio]:disabled + label.dark--theme:before {
+    opacity: .3;
+    background-color: transparent;
+    border: 1px solid #879C9D;
+}
+
+input[type=radio]:checked + label.large.dark--theme:before {
+    border: 8px solid #C05640;
+    background-color: #F9F9F9;
+}
+
+input[type=radio]:checked + label.medium.dark--theme:before {
+    border: 6px solid #C05640;
+    background-color: #F9F9F9;
+}
