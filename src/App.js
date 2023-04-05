@@ -20,6 +20,9 @@ function App() {
                     <Route path="checkboxes" element={<Checkbox id='1'/>}/>
                     <Route path="buttons" element={<Button/>}/>
                     <Route path="radiobuttons" element={<RadioButton id='1'/>}/>
+                    <Route path="checkboxes" element={<Checkbox/>}/>
+                    <Route path="buttons" element={<Button size='large'/>}/>
+                    <Route path="radiobuttons" element={<RadioButton/>}/>
                     <Route path="blogs" element={<Blogs/>} />
                     <Route path="toadmin" element={<Admin/>}/>
                     <Route path="*" element={<NoPage/>}/>
