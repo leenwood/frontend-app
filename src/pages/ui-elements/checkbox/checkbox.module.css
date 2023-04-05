@@ -17,11 +17,11 @@ label.medium {
     padding-left: 27px;
 }
 
-label.light--theme {
+label.lightTheme {
     color: #2B4A52;
 }
 
-label.dark--theme {
+label.darkTheme {
     color: #F9F9F9;
 }
 
@@ -75,7 +75,7 @@ input[type=checkbox] + label.medium:after {
     width: 8px;
     height: 4px;
     left: 5px;
-    top: 6px;
+    top: 4px;
 }
 
 input[type=checkbox]:checked + label:after {
@@ -84,75 +84,75 @@ input[type=checkbox]:checked + label:after {
 
 /* CHECKBOX LIGHT */
 
-input[type=checkbox]:checked + label.light--theme:before,
-input[type=checkbox]:checked:enabled + label.light--theme:hover:before {
+input[type=checkbox]:checked + label.lightTheme:before,
+input[type=checkbox]:checked:enabled + label.lightTheme:hover:before {
     background-color: #C05640;
     border: 0;
 }
 
-input[type=checkbox]:enabled + label.light--theme:hover {
+input[type=checkbox]:enabled + label.lightTheme:hover {
     color: #537173;
 }
 
-input[type=checkbox]:enabled + label.light--theme:active,
-input[type=checkbox]:enabled + label.light--theme:focus {
+input[type=checkbox]:enabled + label.lightTheme:active,
+input[type=checkbox]:enabled + label.lightTheme:focus {
     color: #2B4A52;
 }
 
-input[type=checkbox]:enabled + label.light--theme:hover:before {
+input[type=checkbox]:enabled + label.lightTheme:hover:before {
     background-color: #537173;
     border-color: #537173;
     opacity: .9;
 }
 
-input[type=checkbox]:checked:enabled + label.light--theme:hover:after {
+input[type=checkbox]:checked:enabled + label.lightTheme:hover:after {
     border-color: #537173;
 }
 
-input[type=checkbox]:enabled + label.light--theme:active:before,
-input[type=checkbox]:enabled + label.light--theme:focus:before{
+input[type=checkbox]:enabled + label.lightTheme:active:before,
+input[type=checkbox]:enabled + label.lightTheme:focus:before{
     background-color: #2B4A52;
     border-color: #2B4A52;
 }
 
-input[type=checkbox]:checked:enabled + label.light--theme:active:after,
-input[type=checkbox]:checked:enabled + label.light--theme:focus:after {
+input[type=checkbox]:checked:enabled + label.lightTheme:active:after,
+input[type=checkbox]:checked:enabled + label.lightTheme:focus:after {
     border-color: #F9F9F9;
 }
 
 /* CHECKBOX DARK */
 
-input[type=checkbox]:checked + label.dark--theme:before,
-input[type=checkbox]:checked:enabled + label.dark--theme:hover:before {
+input[type=checkbox]:checked + label.darkTheme:before,
+input[type=checkbox]:checked:enabled + label.darkTheme:hover:before {
     background-color: #C05640;
     border: 0;
 }
 
-input[type=checkbox]:enabled + label.dark--theme:hover {
+input[type=checkbox]:enabled + label.darkTheme:hover {
     color: #F3EADD;
 }
 
-input[type=checkbox]:enabled + label.dark--theme:active,
-input[type=checkbox]:enabled + label.dark--theme:focus {
+input[type=checkbox]:enabled + label.darkTheme:active,
+input[type=checkbox]:enabled + label.darkTheme:focus {
     color: #F9F9F9;
 }
 
-input[type=checkbox]:enabled + label.dark--theme:hover:before {
+input[type=checkbox]:enabled + label.darkTheme:hover:before {
     background-color: #F3EADD;
     border-color: #F3EADD;
 }
 
-input[type=checkbox]:checked:enabled + label.dark--theme:hover:after {
+input[type=checkbox]:checked:enabled + label.darkTheme:hover:after {
     border-color: #F3EADD;
 }
 
-input[type=checkbox]:enabled + label.dark--theme:active:before,
-input[type=checkbox]:enabled + label.dark--theme:focus:before{
+input[type=checkbox]:enabled + label.darkTheme:active:before,
+input[type=checkbox]:enabled + label.darkTheme:focus:before{
     background-color: #F9F9F9;
     border-color: #F9F9F9;
 }
 
-input[type=checkbox]:checked:enabled + label.dark--theme:active:after,
-input[type=checkbox]:checked:enabled + label.dark--theme:focus:after {
+input[type=checkbox]:checked:enabled + label.darkTheme:active:after,
+input[type=checkbox]:checked:enabled + label.darkTheme:focus:after {
     border-color: #F9F9F9;
 }
