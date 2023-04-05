@@ -1,8 +1,8 @@
-import '../styles/buttons.css';
-import '../styles/index.css';
+import '../../../styles/buttons.css';
+import '../../../styles/index.css';
 
 
-function Buttons () {
+function Button () {
     return <div>
         <div className="container--light">
             <button className="extra--large light--theme">Подробнее</button>
@@ -21,4 +21,4 @@ function Buttons () {
     </div>
 }
 
-export default Buttons;
+export default Button;

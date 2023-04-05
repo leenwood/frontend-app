@@ -1,7 +1,7 @@
 import React from "react";
-import '../styles/checkboxes.css';
+import '../../../styles/checkboxes.css';
 
-function Checkboxes() {
+function Checkbox() {
     return <div className="radio--example">
         <h1>Checkbox</h1>
         <div className="light--theme__radio--example theme--wrapper">
@@ -69,4 +69,4 @@ function Checkboxes() {
     </div>
 }
 
-export default Checkboxes;
+export default Checkbox;

@@ -1,8 +1,8 @@
 import React from "react";
-import '../styles/radiobuttons.css';
-import '../styles/index.css';
+import '../../../styles/radiobuttons.css';
+import '../../../styles/index.css';
 
-function RadioButtons() {
+function RadioButton() {
     return <div className="radio--example">
         <h1>Radio</h1>
         <div className="light--theme__radio--example theme--wrapper">
@@ -70,4 +70,4 @@ function RadioButtons() {
     </div>
 }
 
-export default RadioButtons;
+export default RadioButton;

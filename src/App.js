@@ -2,14 +2,14 @@ import logo from './logo.svg';
 import './App.css';
 import ReactDOM from "react-dom/client";
 import {BrowserRouter, Routes, Route} from "react-router-dom";
-import Layout from "./pages/Layout";
-import Home from "./pages/Home";
-import Blogs from "./pages/Blogs";
-import Admin from "./pages/Admin";
-import NoPage from "./pages/NoPage";
-import Buttons from "./pages/Buttons";
-import RadioButtons from "./pages/RadioButtons";
-import Checkboxes from "./pages/Checkboxes";
+import Layout from "./pages/layout/Layout";
+import Home from "./pages/home/Home";
+import Blogs from "./pages/blogs/Blogs";
+import Admin from "./pages/admin/Admin";
+import NoPage from "./pages/nopage/NoPage";
+import Button from "./pages/ui-elements/button/Button";
+import RadioButton from "./pages/ui-elements/radiobutton/RadioButton";
+import Checkbox from "./pages/ui-elements/checkbox/Checkbox";
 
 function App() {
     return (
@@ -17,9 +17,9 @@ function App() {
             <Routes>
                 <Route path="/" element={<Layout/>}>
                     <Route index element={<Home/>}/>
-                    <Route path="checkboxes" element={<Checkboxes/>}/>
-                    <Route path="buttons" element={<Buttons/>}/>
-                    <Route path="radiobuttons" element={<RadioButtons/>}/>
+                    <Route path="checkboxes" element={<Checkbox/>}/>
+                    <Route path="buttons" element={<Button/>}/>
+                    <Route path="radiobuttons" element={<RadioButton/>}/>
                     <Route path="blogs" element={<Blogs/>} />
                     <Route path="toadmin" element={<Admin/>}/>
                     <Route path="*" element={<NoPage/>}/>
