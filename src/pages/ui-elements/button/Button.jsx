@@ -1,5 +1,6 @@
 import React from "react";
 import styles from './Button.module.css'
+
 const Button = (props) => {
     return (
         <button className={`${styles.lightTheme} ${props.size === 'small' ? styles.small : ''} 
@@ -10,4 +11,5 @@ const Button = (props) => {
                             disabled={props.disabled}>Кнопка</button>
     );
 }
+
 export default Button;
