@@ -8,7 +8,7 @@ const Button = (props) => {
                             ${props.size === 'medium' ? styles.medium : ''} 
                             ${props.size === 'large' ? styles.large : ''} 
                             ${props.size === 'extraLarge' ? styles.extraLarge : ''}`}
-                            disabled={props.disabled}>Кнопка</button>
+                            disabled={props.disabled}>{props.title}</button>
     );
 }
 
