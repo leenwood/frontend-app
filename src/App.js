@@ -18,7 +18,7 @@ function App() {
                 <Route path="/" element={<Layout/>}>
                     <Route index element={<Home/>}/>
                     <Route path="checkboxes" element={<Checkbox/>}/>
-                    <Route path="buttons" element={<Button/>}/>
+                    <Route path="buttons" element={<Button size='large'/>}/>
                     <Route path="radiobuttons" element={<RadioButton/>}/>
                     <Route path="blogs" element={<Blogs/>} />
                     <Route path="toadmin" element={<Admin/>}/>
