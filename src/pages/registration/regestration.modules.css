@@ -1,0 +1,64 @@
+:root {
+    --base-hovered-color: #2b4a52;
+    --base-focused-color: #c05640;
+}
+
+.flex {
+    display: flex;
+}
+
+.container__nameLastname {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.name, .lastName {
+    width: calc(70% + 30px);
+}
+
+input, label {
+    display: block;
+}
+
+label {
+    margin-top: 30px;
+    color: var(--base-hovered-color);
+    width: 100%;
+}
+
+.form__input {
+    margin-top: 124px;
+    margin-left: 100px;
+    width: 594px;
+}
+
+input {
+    padding: 10px;
+    width: 90%;
+    height: 20px;
+    margin-top: 5px;
+    border-color: var(--base-hovered-color);
+}
+
+.header__form {
+    color: var(--base-hovered-color);
+    font-family: 'Monsterrat';
+    font-size: 34px;
+    margin-left: 59px;
+    margin-top: 83px;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.container__button_text {
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+
+.error {
+    color: var(--base-focused-color);
+    font-size: 12px;
+    margin-top: 0;
+}
