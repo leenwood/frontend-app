@@ -1,15 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-import ReactDOM from "react-dom/client";
-import {BrowserRouter, Routes, Route} from "react-router-dom";
+import {BrowserRouter, Routes, Route, useNavigate} from "react-router-dom";
 import Layout from "./pages/layout/Layout";
 import Home from "./pages/home/Home";
 import Blogs from "./pages/blogs/Blogs";
-import Admin from "./pages/admin/Admin";
 import NoPage from "./pages/nopage/NoPage";
 import Button from "./pages/ui-elements/button/Button";
 import RadioButton from "./pages/ui-elements/radiobutton/RadioButton";
 import Checkbox from "./pages/ui-elements/checkbox/Checkbox";
+import Registration from "./pages/registration/registration";
 
 function App() {
     return (
@@ -24,9 +23,9 @@ function App() {
                     <Route path="buttons" element={<Button size='large' title='Test'/>}/>
                     <Route path="radiobuttons" element={<RadioButton/>}/>
                     <Route path="blogs" element={<Blogs/>} />
-                    <Route path="toadmin" element={<Admin/>}/>
                     <Route path="*" element={<NoPage/>}/>
                 </Route>
+                <Route path="registration" element={<Registration/>} />
             </Routes>
         </BrowserRouter>
     );
