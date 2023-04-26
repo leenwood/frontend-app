@@ -1,0 +1,18 @@
+.column_1 {
+    width: 78px;
+    padding: 12px 18px;
+    font-size: 12px;
+    margin-right: -5px;
+    cursor: auto;
+    user-select: none;
+}
+
+table td {
+	border: 1px solid var(--base-block-color);
+	padding: 8px 74px;
+    cursor: pointer;
+}
+
+.number {
+    margin-bottom: 15px;
+}

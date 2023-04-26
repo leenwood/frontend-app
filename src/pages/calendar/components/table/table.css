@@ -1,0 +1,4 @@
+.days_week td{
+    cursor: auto;
+    user-select: none;
+}

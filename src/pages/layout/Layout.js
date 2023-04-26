@@ -26,6 +26,9 @@ const Layout = () => {
                     <li>
                         <Link to="/registration">Registration</Link>
                     </li>
+                    <li>
+                        <Link to="/calendar">Calendar</Link>
+                    </li>
                 </ul>
             </nav>
 

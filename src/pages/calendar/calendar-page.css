@@ -1,0 +1,36 @@
+:root {
+    --base-hovered-color: #2b4a52;
+    --base-block-color: #537173;
+    --red: #F87575;
+    --green: #99E5B2;
+
+}
+
+.calendar__container {
+    display: flex;
+    color: var(--base-hovered-color);
+    font-family: "Monsterrat";
+    font-size:  32px;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+table {
+    margin-top: 60px;
+	width: 1336px;
+	border: 1px solid var(--base-block-color);
+	border-collapse: collapse; 
+    font-size: 16px;
+}
+
+.button__wrap {
+    align-self: flex-end;
+    margin-top: 49px;
+}
+
+.title__wrap {
+    align-self: flex-start;
+}
