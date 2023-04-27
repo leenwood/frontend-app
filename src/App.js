@@ -9,6 +9,7 @@ import Button from "./pages/ui-elements/button/Button";
 import RadioButton from "./pages/ui-elements/radiobutton/RadioButton";
 import Checkbox from "./pages/ui-elements/checkbox/Checkbox";
 import Registration from "./pages/registration/registration";
+import Directions from "./pages/cabinet/Directions";
 
 function App() {
     return (
@@ -26,6 +27,7 @@ function App() {
                     <Route path="*" element={<NoPage/>}/>
                 </Route>
                 <Route path="registration" element={<Registration/>} />
+                <Route path="directions" element={<Directions />} />
             </Routes>
         </BrowserRouter>
     );
