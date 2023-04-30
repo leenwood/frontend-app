@@ -10,6 +10,8 @@ import RadioButton from "./pages/ui-elements/radiobutton/RadioButton";
 import Checkbox from "./pages/ui-elements/checkbox/Checkbox";
 import Registration from "./pages/registration/registration";
 
+import Navbar from "./pages/ui-elements/navbar/Navbar";
+
 function App() {
     return (
         <BrowserRouter>
@@ -24,6 +26,7 @@ function App() {
                     <Route path="radiobuttons" element={<RadioButton/>}/>
                     <Route path="blogs" element={<Blogs/>} />
                     <Route path="*" element={<NoPage/>}/>
+                    <Route path="nav" element={<Navbar/>}></Route>
                 </Route>
                 <Route path="registration" element={<Registration/>} />
             </Routes>
