@@ -1,0 +1,119 @@
+.card {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  border-radius: 15px;
+  width: 497px;
+  height: 190px;
+  cursor: pointer;
+  padding: 31px 192px 101px 34px;
+  text-align: left;
+}
+
+
+.card_python {
+  background: linear-gradient( 90deg, #d3d7d6 0%, #d3d7d6 25.52%, rgba(211, 215, 214, 0.79) 57.31%, rgba(211, 215, 214, 0) 100%), url(../../../img/cards/card_python.png);
+
+    &:hover {
+      background: linear-gradient( 0deg, rgba(43, 74, 82, 0.5), rgba(43, 74, 82, 0.5) ), linear-gradient( 90deg, #d3d7d6 0%, #d3d7d6 25.52%, rgba(211, 215, 214, 0.79) 57.31%, rgba(211, 215, 214, 0) 100% ), url(../../../img/cards/card_python.png);
+    }
+    &:active {
+      background: linear-gradient( 0deg, rgba(43, 74, 82, 0.8), rgba(43, 74, 82, 0.8) ), linear-gradient( 90deg, #d3d7d6 0%, #d3d7d6 25.52%, rgba(211, 215, 214, 0.79) 57.31%, rgba(211, 215, 214, 0) 100% ), url(../../../img/cards/card_python.png);
+    }
+    &:focus {
+      background: linear-gradient( 0deg, rgba(43, 74, 82, 0.8), rgba(43, 74, 82, 0.8) ), linear-gradient( 90deg, #d3d7d6 0%, #d3d7d6 25.52%, rgba(211, 215, 214, 0.79) 57.31%, rgba(211, 215, 214, 0) 100% ), url(../../../img/cards/card_python.png);
+    }
+    .disable {
+      background: linear-gradient(90deg, #D3D7D6 0%, #D3D7D6 25.52%, rgba(211, 215, 214, 0.79) 57.31%, rgba(211, 215, 214, 0) 100%), url(../../../img/cards/card_python.png);
+    }
+}
+
+.card_economic {
+  background: linear-gradient( 90deg, #d3d7d6 0%, #d3d7d6 25.52%, rgba(211, 215, 214, 0.79) 57.31%, rgba(211, 215, 214, 0) 100%), url(../../../img/cards/card_economic.png);
+
+    &:hover {
+      background: linear-gradient( 0deg, rgba(43, 74, 82, 0.5), rgba(43, 74, 82, 0.5) ), linear-gradient( 90deg, #d3d7d6 0%, #d3d7d6 25.52%, rgba(211, 215, 214, 0.79) 57.31%, rgba(211, 215, 214, 0) 100% ), url(../../../img/cards/card_economic.png);
+    }
+    &:active {
+      background: linear-gradient( 0deg, rgba(43, 74, 82, 0.8), rgba(43, 74, 82, 0.8) ), linear-gradient( 90deg, #d3d7d6 0%, #d3d7d6 25.52%, rgba(211, 215, 214, 0.79) 57.31%, rgba(211, 215, 214, 0) 100% ), url(../../../img/cards/card_economic.png);
+    }
+    &:focus {
+      background: linear-gradient( 0deg, rgba(43, 74, 82, 0.8), rgba(43, 74, 82, 0.8) ), linear-gradient( 90deg, #d3d7d6 0%, #d3d7d6 25.52%, rgba(211, 215, 214, 0.79) 57.31%, rgba(211, 215, 214, 0) 100% ), url(../../../img/cards/card_economic.png);
+    }
+    .disable {
+      background: linear-gradient(90deg, #D3D7D6 0%, #D3D7D6 25.52%, rgba(211, 215, 214, 0.79) 57.31%, rgba(211, 215, 214, 0) 100%), url(../../../img/cards/card_economic.png);
+    }
+}
+
+.card_terver {
+  background: linear-gradient( 90deg, #d3d7d6 0%, #d3d7d6 25.52%, rgba(211, 215, 214, 0.79) 57.31%, rgba(211, 215, 214, 0) 100%), url(../../../img/cards/card_terver.png);
+
+    &:hover {
+      background: linear-gradient( 0deg, rgba(43, 74, 82, 0.5), rgba(43, 74, 82, 0.5) ), linear-gradient( 90deg, #d3d7d6 0%, #d3d7d6 25.52%, rgba(211, 215, 214, 0.79) 57.31%, rgba(211, 215, 214, 0) 100% ), url(../../../img/cards/card_terver.png);
+    }
+    &:active {
+      background: linear-gradient( 0deg, rgba(43, 74, 82, 0.8), rgba(43, 74, 82, 0.8) ), linear-gradient( 90deg, #d3d7d6 0%, #d3d7d6 25.52%, rgba(211, 215, 214, 0.79) 57.31%, rgba(211, 215, 214, 0) 100% ), url(../../../img/cards/card_terver.png);
+    }
+    &:focus {
+      background: linear-gradient( 0deg, rgba(43, 74, 82, 0.8), rgba(43, 74, 82, 0.8) ), linear-gradient( 90deg, #d3d7d6 0%, #d3d7d6 25.52%, rgba(211, 215, 214, 0.79) 57.31%, rgba(211, 215, 214, 0) 100% ), url(../../../img/cards/card_terver.png);
+    }
+    .disable {
+      background: linear-gradient(90deg, #D3D7D6 0%, #D3D7D6 25.52%, rgba(211, 215, 214, 0.79) 57.31%, rgba(211, 215, 214, 0) 100%), url(../../../img/cards/card_terver.png);
+    }
+}
+
+.card_analysis {
+  background: linear-gradient(90deg, #d3d7d6 0%, #d3d7d6 25.52%, rgba(211, 215, 214, 0.79) 57.31%, rgba(211, 215, 214, 0) 100%), url(../../../img/cards/card_analisys.png);
+
+    &:hover {
+      background: linear-gradient( 0deg, rgba(43, 74, 82, 0.5), rgba(43, 74, 82, 0.5) ), linear-gradient( 90deg, #d3d7d6 0%, #d3d7d6 25.52%, rgba(211, 215, 214, 0.79) 57.31%, rgba(211, 215, 214, 0) 100% ), url(../../../img/cards/card_analisys.png);
+    }
+    &:active {
+      background: linear-gradient( 0deg, rgba(43, 74, 82, 0.8), rgba(43, 74, 82, 0.8) ), linear-gradient( 90deg, #d3d7d6 0%, #d3d7d6 25.52%, rgba(211, 215, 214, 0.79) 57.31%, rgba(211, 215, 214, 0) 100% ), url(../../../img/cards/card_analisys.png);
+    }
+    &:focus {
+      background: linear-gradient( 0deg, rgba(43, 74, 82, 0.8), rgba(43, 74, 82, 0.8) ), linear-gradient( 90deg, #d3d7d6 0%, #d3d7d6 25.52%, rgba(211, 215, 214, 0.79) 57.31%, rgba(211, 215, 214, 0) 100% ), url(../../../img/cards/card_analisys.png);
+    }
+    .disable {
+      background: linear-gradient(90deg, #D3D7D6 0%, #D3D7D6 25.52%, rgba(211, 215, 214, 0.79) 57.31%, rgba(211, 215, 214, 0) 100%), url(../../../img/cards/card_analisys.png);
+    }
+}
+
+.card_biology {
+  background: linear-gradient( 90deg, #d3d7d6 0%, #d3d7d6 25.52%, rgba(211, 215, 214, 0.79) 57.31%, rgba(211, 215, 214, 0) 100%), url(../../../img/cards/card_biology.png);
+
+    &:hover {
+      background: linear-gradient( 0deg, rgba(43, 74, 82, 0.5), rgba(43, 74, 82, 0.5) ), linear-gradient( 90deg, #d3d7d6 0%, #d3d7d6 25.52%, rgba(211, 215, 214, 0.79) 57.31%, rgba(211, 215, 214, 0) 100% ), url(../../../img/cards/card_biology.png);
+    }
+    &:active {
+      background: linear-gradient( 0deg, rgba(43, 74, 82, 0.8), rgba(43, 74, 82, 0.8) ), linear-gradient( 90deg, #d3d7d6 0%, #d3d7d6 25.52%, rgba(211, 215, 214, 0.79) 57.31%, rgba(211, 215, 214, 0) 100% ), url(../../../img/cards/card_biology.png);
+    }
+    &:focus {
+      background: linear-gradient( 0deg, rgba(43, 74, 82, 0.8), rgba(43, 74, 82, 0.8) ), linear-gradient( 90deg, #d3d7d6 0%, #d3d7d6 25.52%, rgba(211, 215, 214, 0.79) 57.31%, rgba(211, 215, 214, 0) 100% ), url(../../../img/cards/card_biology.png);
+    }
+    .disable {
+      background: linear-gradient(90deg, #D3D7D6 0%, #D3D7D6 25.52%, rgba(211, 215, 214, 0.79) 57.31%, rgba(211, 215, 214, 0) 100%), url(../../../img/cards/card_biology.png);
+    }
+    
+}
+
+.card_basketball {
+  background: linear-gradient( 90deg, #d3d7d6 0%, #d3d7d6 25.52%, rgba(211, 215, 214, 0.79) 57.31%, rgba(211, 215, 214, 0) 100%), url(../../../img/cards/card_basketball.png);
+
+    &:hover {
+      background: linear-gradient( 0deg, rgba(43, 74, 82, 0.5), rgba(43, 74, 82, 0.5) ), linear-gradient( 90deg, #d3d7d6 0%, #d3d7d6 25.52%, rgba(211, 215, 214, 0.79) 57.31%, rgba(211, 215, 214, 0) 100% ), url(../../../img/cards/card_basketball.png);
+    }
+    &:active {
+      background: linear-gradient( 0deg, rgba(43, 74, 82, 0.8), rgba(43, 74, 82, 0.8) ), linear-gradient( 90deg, #d3d7d6 0%, #d3d7d6 25.52%, rgba(211, 215, 214, 0.79) 57.31%, rgba(211, 215, 214, 0) 100% ), url(../../../img/cards/card_basketball.png);
+    }
+    &:focus {
+      background: linear-gradient( 0deg, rgba(43, 74, 82, 0.8), rgba(43, 74, 82, 0.8) ), linear-gradient( 90deg, #d3d7d6 0%, #d3d7d6 25.52%, rgba(211, 215, 214, 0.79) 57.31%, rgba(211, 215, 214, 0) 100% ), url(../../../img/cards/card_basketball.png);
+    }
+    .disable {
+      background: linear-gradient(90deg, #D3D7D6 0%, #D3D7D6 25.52%, rgba(211, 215, 214, 0.79) 57.31%, rgba(211, 215, 214, 0) 100%), url(../../../img/cards/card_basketball.png);
+    }
+}
+
+
