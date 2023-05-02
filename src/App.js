@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import {BrowserRouter, Routes, Route, useNavigate} from "react-router-dom";
 import Layout from "./pages/layout/Layout";
@@ -8,9 +7,9 @@ import NoPage from "./pages/nopage/NoPage";
 import Button from "./pages/ui-elements/button/Button";
 import RadioButton from "./pages/ui-elements/radiobutton/RadioButton";
 import Checkbox from "./pages/ui-elements/checkbox/Checkbox";
-import Registration from "./pages/registration/registration";
+import Registration from "./pages/registration/Registration";
 import Card from "./pages/ui-elements/card/Card.jsx";
-import Cards from "./pages/cards/cards"
+import Cards from "./pages/cards/Сards"
 
 
 function App() {
