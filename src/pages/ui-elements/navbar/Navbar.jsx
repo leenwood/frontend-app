@@ -21,28 +21,28 @@ const Navbar = () => {
                 <BurgerBtn/>
             </div>
             <ul className={`${styles.navList}`}>
-                <NavbarItem name="Главная страница" link="#" iconUrl={homeIcon}/>
-                <NavbarItem name="Личный кабинет" items={
+                <NavbarItem name={isOpen ? "Главная страница" : ""} link="#" iconUrl={homeIcon}/>
+                <NavbarItem name={isOpen ? "Личный кабинет" : ""} items={
                     [
                         { name: 'Мое направление', link: '#' },
                         { name: 'Пройденные курсы', link: '#' },
                     ]
                 } iconUrl={accountIcon}/>
-                <NavbarItem name="ИОТ" items={
+                <NavbarItem name={isOpen ? "ИОТ" : ""} items={
                     [
                         { name: 'Все курсы ИОТ', link: '#' },
                         { name: 'Рекомендованные траектории', link: '#' },
                         { name: 'Курсы в рамках направления', link: '#' },
                     ]
                 } iconUrl={iotIcon}/>
-                <NavbarItem name="Построение траектории" link="#" iconUrl={trajectoryIcon}/>
-                <NavbarItem name="Профессии" items={
+                <NavbarItem name={isOpen ? "Построение траектории" : ""} link="#" iconUrl={trajectoryIcon}/>
+                <NavbarItem name={isOpen ? "Профессии" : ""} items={
                     [
                         { name: 'Библиотека профессий', link: '#' },
                         { name: 'Рекомендуемые профессии', link: '#' },
                     ]
                 } iconUrl={recsIcon}/>
-                <NavbarItem name="Тест на профориентацию" link="#" iconUrl={testIcon}/>
+                <NavbarItem name={isOpen ? "Тест на профориентацию" : ""} link="#" iconUrl={testIcon}/>
             </ul>
         </nav>
     )
