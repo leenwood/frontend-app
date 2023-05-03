@@ -7,12 +7,13 @@ import NoPage from "./pages/nopage/NoPage";
 import Button from "./pages/ui-elements/button/Button";
 import RadioButton from "./pages/ui-elements/radiobutton/RadioButton";
 import Checkbox from "./pages/ui-elements/checkbox/Checkbox";
+import Registration from "./pages/registration/registration";
+import Directions from "./pages/cabinet/Directions";
 import Registration from "./pages/registration/Registration";
 import Card from "./pages/ui-elements/card/Card.jsx";
 import Cards from "./pages/cards/Сards"
-
-
 import Navbar from "./pages/ui-elements/navbar/Navbar";
+
 
 function App() {
     return (
@@ -32,6 +33,7 @@ function App() {
                     <Route path="card" element={<Card name="Программирование на Python" card_name="card_python"/>}/>
                 </Route>
                 <Route path="registration" element={<Registration/>} />
+                <Route path="directions" element={<Directions />} />
                 <Route path="cards" element={<Cards/>} />
             </Routes>
         </BrowserRouter>
