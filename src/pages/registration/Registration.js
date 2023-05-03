@@ -1,7 +1,7 @@
 import "./registration.css";
 import background from "../../img/reg_background.svg";
 import Button from "../ui-elements/button/Button";
-import { useRef, useState } from "react";
+import { useRef } from "react";
 import {useForm} from "react-hook-form";
 
 
@@ -9,22 +9,6 @@ function Image() {
 	return (
 		<img src={background} alt="altImage" />
 	);
-}
-
-function FormInput(props) {
-	return ( <div className="input__container">
-		<label>{props.text}
-			<input type={props.type} name={props.name} placeholder={props.value} onChange={props.onChange}/>
-		</label>
-		</div>
-	)
-}
-
-function MergeNameLastname() {
-	return <div className="container__namelastname flex">
-		<FormInput text="Фамилия" type="text" name="lastnameInput" value="Введите фамилию" />
-		<FormInput text="Имя" type="text" name="nameInput" value="Введите имя"/>
-	</div>
 }
 
 function MergeButtonText() {
@@ -39,11 +23,6 @@ function RegestrationForm() {
 	const onSubmit = (d) => alert(JSON.stringify(d));
 	const password = useRef({});
 	password.currrent = watch("password", "");
-	const [name, setName] = useState();
-	const handleChangeName = (e) => {
-		setName(e.target.value);
-		console.log(e.target.value);
-	};
 	return <form onSubmit={handleSubmit(onSubmit)} className="form__input">
 		<h2 className="header__form">Создать учётную запиcь</h2>
 		<div className="container__nameLastname flex">

@@ -1,0 +1,9 @@
+
+
+.background__green {
+    background-color: var(--green);
+}
+
+.background__red {
+    background-color: var(--red);
+}
