@@ -12,6 +12,8 @@ import Card from "./pages/ui-elements/card/Card.jsx";
 import Cards from "./pages/cards/Сards"
 
 
+import Navbar from "./pages/ui-elements/navbar/Navbar";
+
 function App() {
     return (
         <BrowserRouter>
@@ -26,6 +28,7 @@ function App() {
                     <Route path="radiobuttons" element={<RadioButton/>}/>
                     <Route path="blogs" element={<Blogs/>} />
                     <Route path="*" element={<NoPage/>}/>
+                    <Route path="nav" element={<Navbar/>}></Route>
                     <Route path="card" element={<Card name="Программирование на Python" card_name="card_python"/>}/>
                 </Route>
                 <Route path="registration" element={<Registration/>} />

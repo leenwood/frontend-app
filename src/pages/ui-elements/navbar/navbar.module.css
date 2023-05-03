@@ -1,0 +1,31 @@
+.burgerWrapper {
+    padding-left: 20px;
+    width: 30px;
+}
+
+.mainNav {
+    margin: 0;
+    height: 100vh;
+    background-color: #537173;
+    padding: 20px 0 0 0;
+    max-width: 70px;
+}
+
+.open .navList li:first-child:before {
+    width: 279px;
+}
+
+.navList {
+    display: flex;
+    flex-direction: column;
+    margin: 37px 0 0;
+    padding: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+.open {
+    max-width: 303px;
+}

@@ -1,0 +1,28 @@
+.headerBurgerBtn {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    border: none;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.wrapper {
+    height: 18px;
+    width: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.headerBurgerBtn span {
+    box-sizing: border-box;
+    display: block;
+    width: 23px;
+    height: 2px;
+    border: 1px solid #F9F9F9;
+    border-radius: 1px;
+}
