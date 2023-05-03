@@ -1,0 +1,17 @@
+.navbarSublistItem {
+    position: relative;
+}
+
+.navbarSublistItem:after {
+    position: absolute;
+    content: '';
+    width: 9px;
+    height: 45px;
+    background-color: #C05640;
+    top: 8px;
+    opacity: 0;
+}
+
+.navbarSublistItem:hover:after {
+    opacity: 1;
+}
