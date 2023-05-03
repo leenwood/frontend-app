@@ -20,7 +20,7 @@ button {
     margin-left: 10px;
 }
 
-.wrapper {
+.titleWrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;

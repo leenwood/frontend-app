@@ -1,4 +1,4 @@
-import "./regestration.modules.css";
+import "./registration.css";
 import background from "../../img/reg_background.svg";
 import Button from "../ui-elements/button/Button";
 import { useRef } from "react";

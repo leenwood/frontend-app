@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import {BrowserRouter, Routes, Route, useNavigate} from "react-router-dom";
 import Layout from "./pages/layout/Layout";
@@ -10,6 +9,11 @@ import RadioButton from "./pages/ui-elements/radiobutton/RadioButton";
 import Checkbox from "./pages/ui-elements/checkbox/Checkbox";
 import Registration from "./pages/registration/registration";
 import Calendar from "./pages/calendar"
+import Directions from "./pages/cabinet/Directions";
+import Card from "./pages/ui-elements/card/Card.jsx";
+import Cards from "./pages/cards/Сards"
+import Navbar from "./pages/ui-elements/navbar/Navbar";
+
 
 function App() {
     return (
@@ -25,9 +29,13 @@ function App() {
                     <Route path="radiobuttons" element={<RadioButton/>}/>
                     <Route path="blogs" element={<Blogs/>} />
                     <Route path="*" element={<NoPage/>}/>
+                    <Route path="nav" element={<Navbar/>}></Route>
+                    <Route path="card" element={<Card name="Программирование на Python" card_name="card_python"/>}/>
                 </Route>
                 <Route path="registration" element={<Registration/>} />
                 <Route path='calendar' element={<Calendar/>} />
+                <Route path="directions" element={<Directions />} />
+                <Route path="cards" element={<Cards/>} />
             </Routes>
         </BrowserRouter>
     );

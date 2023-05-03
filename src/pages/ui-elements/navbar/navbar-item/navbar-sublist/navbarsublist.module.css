@@ -1,0 +1,10 @@
+.sublist {
+    margin: 0 0 0 70px;
+    padding: 0;
+    background-color: #2B4A52;
+    list-style: none;
+}
+
+.hidden {
+    display: none;
+}

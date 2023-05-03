@@ -1,0 +1,58 @@
+.content {
+    width: 640px;
+    display: flex;
+    column-gap: 36px;
+    border: 3px solid #2B4A52;
+}
+
+.avatar {
+    padding: 30px;
+    padding-right: 0;
+}
+
+.information {
+    margin: 0;
+    padding: 0;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+
+.item {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+    text-align: start;
+    font-weight: 600;
+}
+
+.name {
+    margin-bottom: 32px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.position {
+    margin-bottom: 52px;
+    text-align: center;
+}
+
+p {
+    font-family: 'Monsterrat', sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 500;
+}
+
+.itemValue {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+    text-align: end;
+}
+
+.itemsWrapper {
+    display: flex;
+}
+

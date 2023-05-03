@@ -1,0 +1,80 @@
+.content {
+    margin: 0;
+    padding: 0;
+    width: 1500px;
+    background-color: white;
+    font-family: 'Monsterrat', sans-serif;
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    border-bottom: 1px solid #2B4A52;
+    margin-bottom: 70px;
+}
+
+.title {
+    margin: 0;
+    padding: 0;
+    margin-top: 60px;
+    margin-bottom: 70px;
+    color: #2B4A52;
+    font-size: 32px;
+    line-height: 44px;
+}
+
+.avatar {
+    margin: 0;
+    padding: 0;
+}
+
+.information {
+    margin: 0;
+    padding: 0;
+}
+
+.information p {
+    margin: 0;
+    padding: 0;
+}
+
+.information .name {
+    font-size: 36px;
+    line-height: 44px;
+    margin-bottom: 17px;
+}
+
+.information .itemsNames {
+    margin: 0;
+    padding: 0;
+    width: max-content;
+}
+
+.information .itemName {
+    margin: 0;
+    padding: 0;
+    color: #537173;
+    margin-bottom: 11px;
+    text-align: right;
+}
+
+.avatar img {
+    width: 170px;
+    height: 170px;
+}
+
+.flex {
+    display: flex;
+    column-gap: 41px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 65px;
+}
+
+.information .item {
+    margin-bottom: 11px;
+}
+
+.itemsWrapper {
+    display: flex;
+    column-gap: 57px;
+}

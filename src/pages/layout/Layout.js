@@ -29,7 +29,15 @@ const Layout = () => {
                     <li>
                         <Link to="/calendar">Calendar</Link>
                     </li>
-                </ul>
+                    <li>
+                        <Link to="/directions">Directions</Link>
+                    </li>
+                    <li>
+                        <Link to="/nav">Navbar</Link>
+                    </li>
+                    <li> <Link to="/card">Card</Link></li>
+                    <li> <Link to="/cards">Cards</Link></li>
+            </ul>
             </nav>
 
             <Outlet />
