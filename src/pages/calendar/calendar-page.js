@@ -20,15 +20,19 @@ export function App() {
     }, [])
 
     const handleClickconvertToJSON = () => {
-        const fs = require('fs');
-        const json = calendarData.toJSON()
-        fs.writeFile('trajectory/data.json', json, err => {
-            if (err) {
-                console.error(err);
-            } else {console.log("Yes")}
+        const jsonData = calendarData.toJSON()
+
+        fetch('http://localhost', {
+            method: 'POST',
+            headers: {
+                'Content-type': 'application/json'
+            },
+            body: jsonData
         })
-        
-        
+            .then(response => console.log(response))
+            .catch((error => {
+                console.log('error', error);
+            }));
     }
 
 	return <div className="calendar__container">
