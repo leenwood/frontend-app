@@ -7,7 +7,7 @@ import NoPage from "./pages/nopage/NoPage";
 import Button from "./pages/ui-elements/button/Button";
 import RadioButton from "./pages/ui-elements/radiobutton/RadioButton";
 import Checkbox from "./pages/ui-elements/checkbox/Checkbox";
-import Registration from "./pages/registration/registration";
+import Registration from "./pages/registration/Registration";
 import Calendar from "./pages/calendar"
 import Directions from "./pages/cabinet/Directions";
 import Card from "./pages/ui-elements/card/Card.jsx";
