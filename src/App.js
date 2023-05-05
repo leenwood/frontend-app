@@ -13,6 +13,7 @@ import Directions from "./pages/cabinet/Directions";
 import Card from "./pages/ui-elements/card/Card.jsx";
 import Cards from "./pages/cards/Сards"
 import Navbar from "./pages/ui-elements/navbar/Navbar";
+import CourseDescription from "./pages/course-description/course-description";
 
 
 function App() {
@@ -36,6 +37,8 @@ function App() {
                 <Route path='calendar' element={<Calendar/>} />
                 <Route path="directions" element={<Directions />} />
                 <Route path="cards" element={<Cards/>} />
+                <Route path="course_description" element={<CourseDescription courseName = "МУП ДМиМЛ_09 Дискретная математика и математическая логика" progress = "10%"
+                annotation = "Дискретная математика - одна из важнейших составляющих современной математики. С одной стороны, она включает фундаментальные основы математики - теорию множеств, математическую логику, теорию алгоритмов; с другой стороны, является основным математическим аппаратом информатики и вычислительной техники и потому служит базой для многочисленных приложений в экономике, технике, социальной сфере."/>} />
             </Routes>
         </BrowserRouter>
     );

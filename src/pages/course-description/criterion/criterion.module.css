@@ -1,0 +1,15 @@
+.content {
+    position: relative;
+    width: 227px;
+    height: 140px;
+}
+
+.content p {
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    margin: 50px 30px 30px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
