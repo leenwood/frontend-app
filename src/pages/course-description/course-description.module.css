@@ -1,0 +1,114 @@
+.wrapp {
+    display: flex;
+
+}
+
+.description {
+    margin-top: 60px;
+    margin-left: 70px;
+    width: 1140px;
+    border-right: 1px solid #2B4A52;
+    padding-right: 160px;
+}
+
+.mainHead {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 42px;
+    color: #2B4A52;
+    margin-bottom: 60px;
+}
+
+.progressBarContainer {
+    border: 3px solid #2B4A52;
+    border-radius: 30px;
+    width: 540px;
+    height: 192px;
+    margin-left: 281px;
+    margin-bottom: 60px;
+}
+
+.progressBarContainer p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    color: #2B4A52;
+    font-size: 24px;
+    line-height: 33px;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 32px;
+}
+
+.card {
+    display: flex;
+    column-gap: 77px;
+    margin-bottom: 70px;
+}
+
+.head {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    color: #2B4A52;
+    margin-bottom: 20px;
+}
+
+.content {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 50px;
+}
+
+.progressBar {
+    position: relative;
+    border: 8px solid #D3D7D6;
+    border-radius: 10px;
+    margin-left: 40px;
+    margin-right: 50px;
+}
+
+.line {
+    position: absolute;
+    border: 8px solid #99E5B2;
+    border-radius: 10px;
+    margin-top: -8px;
+    margin-left: -8px;
+}
+
+.side {
+    margin-left: 61px;
+    margin-top: 117px;
+}
+
+.flex {
+    display: flex;
+    column-gap: 194px;
+    margin-bottom: 40px;
+}
+
+.autors {
+    margin-bottom: 40px;
+}
+
+.name {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #2B4A52;
+}
+
+.value {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #000000;
+}
