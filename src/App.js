@@ -31,7 +31,6 @@ function App() {
                     <Route path="*" element={<NoPage/>}/>
                     <Route path="nav" element={<Navbar/>}></Route>
                     <Route path="card" element={<Card name="Программирование на Python" card_name="card_python"/>}/>
-                    <Route path="registration" element={<Registration/>} />
                     <Route path='calendar' element={<Calendar/>} />
                     <Route path="directions" element={<Directions />} />
                     <Route path="cards" element={<Cards/>} />
@@ -39,6 +38,7 @@ function App() {
                                                                                  annotation = "Дискретная математика - одна из важнейших составляющих современной математики. С одной стороны, она включает фундаментальные основы математики - теорию множеств, математическую логику, теорию алгоритмов; с другой стороны, является основным математическим аппаратом информатики и вычислительной техники и потому служит базой для многочисленных приложений в экономике, технике, социальной сфере."/>} />
 
                 </Route>
+                <Route path="registration" element={<Registration/>} />
                     </Routes>
         </BrowserRouter>
     );
