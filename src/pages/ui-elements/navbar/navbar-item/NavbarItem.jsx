@@ -1,6 +1,7 @@
 import {useState} from "react";
 import styles from './navbarItem.module.css';
 import NavbarSublist from "./navbar-sublist/NavbarSublist";
+import {Link} from "react-router-dom";
 
 const isLink = props => props === undefined;
 
@@ -9,9 +10,7 @@ const NavbarItem = (props) => {
 
     if (isLink(props.items)) {
         return (
-            <li className={styles.navbarItem}>
-                <a href={props.link} className={styles.navbarItemLink}><img src={props.iconUrl} alt=""/> {props.name}</a>
-            </li>
+            <a href={props.link} className={styles.navbarItemLink}><img src={props.iconUrl} alt=""/> {props.name}</a>
         );
     } else {
         return (
