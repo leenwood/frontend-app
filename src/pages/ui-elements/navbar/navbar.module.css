@@ -3,16 +3,27 @@
     width: 30px;
 }
 
+.outlet {
+    position: absolute;
+    left: 900px;
+    top: 0;
+}
+
 .mainNav {
+    z-index: 1000;
+    position: absolute;
+    top: 0;
+    left: 0;
     margin: 0;
-    height: 100vh;
+    height: 100%;
     background-color: #537173;
     padding: 20px 0 0 0;
     max-width: 70px;
 }
 
 .open .navList li:first-child:before {
-    width: 279px;
+    width: 303px;
+    max-width: 303px;
 }
 
 .navList {
@@ -27,5 +38,6 @@
 }
 
 .open {
+    width: 303px;
     max-width: 303px;
 }
