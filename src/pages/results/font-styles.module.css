@@ -1,0 +1,21 @@
+.header {
+    font-weight: 500;
+    font-size: 35px;
+    color: var(--base-hovered-color);
+    font-family: "Montserrat", sans-serif;
+}
+
+.secondaryHeader {
+    color: var(--base-hovered-color);
+    font-weight: 500;
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.default {
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    color: var(--additional-black-color);
+    line-height: 24px;
+}

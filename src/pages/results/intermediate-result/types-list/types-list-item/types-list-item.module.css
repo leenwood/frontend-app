@@ -1,0 +1,75 @@
+.listItem {
+    margin: 0 0 40px;
+    width: 710px;
+    padding: 0 0 10px;
+    border-bottom: 2px solid #2B4A52;
+}
+
+.listItem h2 {
+    padding: 0;
+    margin: 0;
+}
+
+.listItem p {
+    display: none;
+    margin-bottom: 10px;
+}
+
+.listItem.open {
+    padding: 0;
+}
+
+.listItem.open .header {
+    padding-bottom: 0;
+    margin-bottom: 30px;
+}
+
+.listItem.open p {
+    display: block;
+}
+
+.listItem.open .header span {
+    transform: rotate(225deg);
+    transition: transform 500ms ease;
+    top: -5px;
+}
+
+.openBtnWrapper {
+    position: relative;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.header span {
+    position: absolute;
+    top: -15px;
+    left: -20px;
+    box-sizing: border-box;
+    display: block;
+    width: 15px;
+    height: 15px;
+    border: 3px solid #2B4A52;
+    transform: rotate(45deg);
+    transition: transform 500ms ease;
+    border-left: none;
+    border-top: none;
+    border-radius: 1px;
+    cursor: pointer;
+}
+
+.listItem.recommended {
+    border: none;
+}
+
+.listItem.recommended span, .listItem.recommended .openBtnWrapper{
+    display: none;
+}
+
+.listItem.recommended p {
+    display: block;
+}
