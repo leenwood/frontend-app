@@ -14,7 +14,6 @@ import Card from "./pages/ui-elements/card/Card.jsx";
 import Cards from "./pages/cards/Сards"
 import Navbar from "./pages/ui-elements/navbar/Navbar";
 import CourseDescription from "./pages/course-description/course-description";
-import intermediateResult from "./pages/results/intermediate-result/intermediate-result";
 import IntermediateResult from "./pages/results/intermediate-result/intermediate-result";
 
 
@@ -34,8 +33,7 @@ function App() {
                     <Route path="*" element={<NoPage/>}/>
                     <Route path="nav" element={<Navbar/>}></Route>
                     <Route path="card" element={<Card name="Программирование на Python" card_name="card_python"/>}/>
-
-                    <Route path="res" element={<IntermediateResult/>}/>
+                    <Route path="intresult" element={<IntermediateResult data={[8.13, 17.08, 28.65, 17.56, 28.58]}/>}/>
                 </Route>
                 <Route path="registration" element={<Registration/>} />
                 <Route path='calendar' element={<Calendar/>} />

@@ -5,16 +5,7 @@ import { useState } from 'react';
 const TypesListItem = (props) => {
     const [isOpen, setIsOpen] = useState(false);
 
-    // props.isRecommended
-    //     ? `${styles.open} ${styles.recommended}`
-    //     : isOpen
-    //         ? styles.open
-    //         : ''
-
     return (
-        // <li className={`${styles.listItem}
-        //                 ${isOpen ? styles.open : ''}
-        //                 ${props.isRecommended ? styles.recommended : ''}`}>
         <li className={`${styles.listItem} 
                         ${props.isRecommended
                             ? `${styles.open} ${styles.recommended}`
