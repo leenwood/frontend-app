@@ -1,6 +1,7 @@
 import Calendar from "../calendar/index"
 import AllCourse from "../course-priority/all-course";
 import AllTeachers from "../teacher-priority/all-teachers";
+import Button from "../ui-elements/button/Button";
 import "./trajectory-generation.css"
 
 function GenerateTrejectory() {
@@ -13,6 +14,8 @@ function GenerateTrejectory() {
         <AllCourse />
         <Calendar />
         <AllTeachers />
+        <div className="button_wrap"><Button size="extraLarge" title="Сгенерировать траекторию"/></div>
+        
     </div>
 }
 
