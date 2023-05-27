@@ -38,6 +38,7 @@ const Layout = () => {
                     <li> <Link to="/card">Card</Link></li>
                     <li> <Link to="/cards">Cards</Link></li>
                     <li> <Link to="/course_description">Course_Descriptions</Link></li>
+                    <li> <Link to="/career_test">Career_Test</Link></li>
             </ul>
             </nav>
 

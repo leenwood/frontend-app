@@ -1,0 +1,29 @@
+.content {
+    position: relative;
+    z-index: 1;
+}
+
+.head {
+    margin: 391px 0 50px 295px;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.description {
+    font-family: "Montserrat", sans-serif;
+    margin: 0 0 50px 321px;
+    padding: 0;
+    font-size: 24px;
+    line-height: 29px;
+    width: 1209px;
+    text-align: center;
+}
+
+.button {
+    margin: 0 0 0 759px;
+}
+
+

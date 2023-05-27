@@ -14,6 +14,8 @@ import Card from "./pages/ui-elements/card/Card.jsx";
 import Cards from "./pages/cards/Сards"
 import Navbar from "./pages/ui-elements/navbar/Navbar";
 import CourseDescription from "./pages/course-description/course-description";
+import CareerTest from "./pages/career-test/career-test";
+import Test from "./pages/career-test/test/test";
 
 
 function App() {
@@ -23,7 +25,7 @@ function App() {
                 <Route path="/" element={<Layout/>}>
                     <Route index element={<Home/>}/>
                     <Route path="checkboxes" element={<Checkbox id='1' title='Test'/>}/>
-                    <Route path="buttons" element={<Button/>}/>
+                    <Route path="buttons" element={<Button size='extraLarge' title='Test'/>}/>
                     <Route path="radiobuttons" element={<RadioButton id='1' title='Test'/>}/>
                     <Route path="checkboxes" element={<Checkbox/>}/>
                     <Route path="buttons" element={<Button size='large' title='Test'/>}/>
@@ -39,6 +41,8 @@ function App() {
                 <Route path="cards" element={<Cards/>} />
                 <Route path="course_description" element={<CourseDescription courseName = "МУП ДМиМЛ_09 Дискретная математика и математическая логика" progress = "10%"
                 annotation = "Дискретная математика - одна из важнейших составляющих современной математики. С одной стороны, она включает фундаментальные основы математики - теорию множеств, математическую логику, теорию алгоритмов; с другой стороны, является основным математическим аппаратом информатики и вычислительной техники и потому служит базой для многочисленных приложений в экономике, технике, социальной сфере."/>} />
+                <Route path="career_test" element={<CareerTest/>}/>
+                <Route path='test' element={<Test />}/>
             </Routes>
         </BrowserRouter>
     );
