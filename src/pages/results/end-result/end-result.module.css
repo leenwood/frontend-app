@@ -1,0 +1,59 @@
+.main {
+    padding: 0;
+    margin: 0 75px 0 100px;
+}
+
+.header {
+    padding: 0;
+    margin: 0 0 52px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header button {
+    width: 334px;
+    height: 90px;
+    background-color: var(--base-focused-color);
+    color: #FDFCFA;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    font-family: 'Monsterrat', sans-serif;
+    cursor: pointer;
+}
+
+.header button:hover {
+    background-color: #e57a61;
+}
+
+.header button:active{
+    background-color: #E57A61;
+}
+
+.chartWrapper {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    margin: 0 0 85px;
+}
+
+.main h2 {
+    margin-bottom: 40px;
+}
+
+.professionCardsList {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    width: 1500px;
+    margin: 0 auto;
+}
+
+.mainFooter {
+    margin: 106px 0 188px;
+    padding: 0 120px;
+    display: flex;
+    justify-content: end;
+    gap: 70px;
+}
