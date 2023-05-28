@@ -69,7 +69,7 @@ const IntermediateResult = (props) => {
         <>
             <main className={styles.main}>
                 <div className={styles.resultWrapper}>
-                    <h1 className={fontStyles.header} onClick={routeChange}>Промежуточный результат</h1>
+                    <h1 className={fontStyles.header}>Промежуточный результат</h1>
                     <p className={fontStyles.default}>Анализ ваших интересов показал, что вам ближе тип:</p>
                     <TypesList/>
                 </div>
