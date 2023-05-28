@@ -1,0 +1,51 @@
+.item {
+    display: grid;
+    align-items: center;
+    width: 690px;
+    margin: 0 62px 0 0;
+
+    grid-template-areas: "title bar pointer";
+}
+
+.item h3 {
+    display: block;
+    width: 425px;
+}
+
+.item p {
+    display: none;
+}
+
+.wrapper {
+    width: 40px;
+    height: 40px;
+}
+
+.pointer {
+    background-color: #537173;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 62px;
+
+    position: relative;
+    display: none;
+}
+
+.pointer div {
+    width: 20px;
+    height: 20px;
+    box-sizing: border-box;
+    border-bottom: 3px solid #F9F9F9;
+    border-right: 3px solid #F9F9F9;
+    border-radius: 1px;
+    transform: rotate(-45deg);
+
+    position: absolute;
+    top: 10px;
+    left: 5px;
+}
+
+.item.open .pointer {
+    display: block;
+}
