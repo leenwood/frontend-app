@@ -18,6 +18,8 @@ import Course from "./pages/course-priority/course/course";
 import AllCourse from './pages/course-priority/all-course';
 import AllTeachers from './pages/teacher-priority/all-teachers';
 import GenerateTrejectory from './pages/trajectory-generation/trajectory-generation';
+import CareerTest from "./pages/career-test/career-test";
+import Test from "./pages/career-test/test/test";
 
 
 function App() {
@@ -27,7 +29,7 @@ function App() {
                 <Route path="/" element={<Navbar/>}>
                     <Route index element={<Home/>}/>
                     <Route path="checkboxes" element={<Checkbox id='1' title='Test'/>}/>
-                    <Route path="buttons" element={<Button/>}/>
+                    <Route path="buttons" element={<Button size='extraLarge' title='Test'/>}/>
                     <Route path="radiobuttons" element={<RadioButton id='1' title='Test'/>}/>
                     <Route path="checkboxes" element={<Checkbox/>}/>
                     <Route path="buttons" element={<Button size='large' title='Test'/>}/>
@@ -46,7 +48,8 @@ function App() {
                     <Route path='allCourse' element={<AllCourse />} />
                     <Route path='allTeachers' element={<AllTeachers />} />
                     <Route path='trajectoryGeneration' element={<GenerateTrejectory />} />
-
+                    <Route path="career_test" element={<CareerTest/>}/>
+                    <Route path='test' element={<Test />}/>
                 </Route>
             </Routes>
         </BrowserRouter>
