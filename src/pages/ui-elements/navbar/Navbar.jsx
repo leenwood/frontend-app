@@ -53,7 +53,7 @@ const Navbar = () => {
                         } iconUrl={recsIcon}/>
                     </li>
                     <li className={stylesNav.navbarItem}>
-                        <NavbarItem name={isOpen ? "Тест на профориентацию" : ""} link="#" iconUrl={testIcon}/>
+                        <NavbarItem name={isOpen ? "Тест на профориентацию" : ""} link="/career_test" iconUrl={testIcon}/>
                     </li>
                 </ul>
             </nav>
