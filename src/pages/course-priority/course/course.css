@@ -1,0 +1,43 @@
+.container {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    
+}
+
+.course__container {
+    padding: 25px 28px 25px 71px;
+    width: 1611px;
+    height: 30px;
+    background: #F9F9F9;
+    border: 1px solid #2B4A52;
+    background-image: url("/src/img/priority-course/arrow.svg");
+    background-repeat: no-repeat;
+    background-position: 2% center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.checkbox__container {
+    margin-top: -49px;
+}
+
+.blocks__container {
+    display: none;
+    margin-bottom: 15px;
+}
+
+.active {
+    display: block;
+}
+
+.active_ {
+    background-color: #2B4A52;
+    background-image: url("/src/img/priority-course/arrow_bottom.svg");
+    color: #FDFCFA;
+
+}

@@ -42,7 +42,7 @@ const Navbar = () => {
                         } iconUrl={iotIcon}/>
                     </li>
                     <li className={stylesNav.navbarItem}>
-                        <NavbarItem name={isOpen ? "Построение траектории" : ""} link="/calendar" iconUrl={trajectoryIcon}/>
+                        <NavbarItem name={isOpen ? "Построение траектории" : ""} link="/trajectoryGeneration" iconUrl={trajectoryIcon}/>
                     </li>
                     <li className={stylesNav.navbarItem}>
                         <NavbarItem name={isOpen ? "Профессии" : ""} items={
