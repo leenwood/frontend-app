@@ -35,12 +35,14 @@ const Layout = () => {
                     <li>
                         <Link to="/nav">Navbar</Link>
                     </li>
+                    <li> <Link to="/card">Card</Link></li>
                     <li> <Link to="/cards">Cards</Link></li>
                     <li> <Link to="/course_description">Course_Descriptions</Link></li>
                     <li> <Link to="/course">Course</Link></li>
                     <li> <Link to="/allCourse">All Course</Link></li>
                     <li> <Link to="/allTeachers">All Teachers</Link></li>
                     <li> <Link to="/trajectoryGeneration">Trajectory Generation</Link></li>
+                    <li> <Link to="/career_test">Career_Test</Link></li>
             </ul>
             </nav>
 
