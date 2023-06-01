@@ -20,6 +20,8 @@ import AllTeachers from './pages/teacher-priority/all-teachers';
 import GenerateTrejectory from './pages/trajectory-generation/trajectory-generation';
 import CareerTest from "./pages/career-test/career-test";
 import Test from "./pages/career-test/test/test";
+import IntermediateResult from "./pages/results/intermediate-result/intermediate-result";
+import EndResult from "./pages/results/end-result/end-result";
 
 
 function App() {
@@ -50,6 +52,34 @@ function App() {
                     <Route path='trajectoryGeneration' element={<GenerateTrejectory />} />
                     <Route path="career_test" element={<CareerTest/>}/>
                     <Route path='test' element={<Test />}/>
+                    <Route path="intermediateresult" element={<IntermediateResult data={[8.13, 17.08, 28.65, 17.56, 28.58]}/>}/>
+                    <Route path="endresult" element={<EndResult subject={{
+                        data: [83, 82, 78, 72, 32],
+                        description: [
+                            `Умеренный интерес к образам и визуализации. Вам может быть интересно работать с изображениями, визуальными моделями, графической информацией и художественными представлениями. Вы время от времени стремитесь создавать, воспроизводить образы и оперировать ими, видоизменять их и достраивать.`,
+                            'Текст и языки sample text',
+                            'Система и механизмы sample text',
+                            'Люди и взаимодействие sample text',
+                            'Числа и вычисления sample text'
+                        ]
+                    }}
+                                                                profession={{
+                                                                    data: [95, 73, 65, 17, 8],
+                                                                    description: [
+                                                                        `Сильный интерес к структурированию и контролю. Вам интересно систематизировать и проверять данные, контролировать их передачу, следить за выполнением работы и качеством продукта. Вам нравится получать информацию, делать её удобной для использования, составлять регулярную отчётность, объяснять различные показатели, тестировать.`,
+                                                                        'Исследование и анализ sample text',
+                                                                        'Продвижение sample text',
+                                                                        'Организация и управление sample text',
+                                                                        'Разработка и создание нового sample text'
+                                                                    ]
+                                                                }}
+                                                                chartData={[5.97, 23.34, 6.3, 28.14, 36.25]}
+                                                                chartDescription={'Корпоративная: ориентация на стабильность, доход, работу в крупных компаниях, вертикальный рост (стремление к руководящим позициям).\n' +
+                                                                    'Профессиональная: ориентация на профессиональное развитие, содержание работы, горизонтальный рост.\n' +
+                                                                    'Статическая: ориентация на стабильность, комфорт, условия труда.\n' +
+                                                                    'Творческая: ориентация на создание нового, поиск и увлеченность своим делом, генерацию идей. Такая карьера часто переходит в предпринимательскую.\n' +
+                                                                    'Предпринимательская: ориентация на реализацию идей, рост статуса и благосостояния, стремление к независимости от внешних факторов.'}
+                    />}/>
                 </Route>
             </Routes>
         </BrowserRouter>
