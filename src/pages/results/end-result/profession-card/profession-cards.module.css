@@ -1,0 +1,31 @@
+.card {
+    box-sizing: border-box;
+    width: 330px;
+    height: 424px;
+    border: 1px solid #537173;
+    background-color: #FDFCFA;
+}
+
+.headerWrapper {
+    height: 257px;
+    background-image: url("../../../../img/prof-card/ellipse.png"), url("../../../../img/prof-card/polygon.png"), url("../../../../img/prof-card/rectangle.png");
+    background-repeat: no-repeat;
+    background-position: 169px -5px, -10px 0px, 20px 145px;
+    border-bottom: 1px solid #537173;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headerWrapper h3 {
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+
+.mainWrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 70px 30px;
+}
