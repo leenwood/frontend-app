@@ -63,7 +63,7 @@ const EndResult = (props) => {
                         <h1 className={fontStyles.header}>Результаты тестирования</h1>
                         <p className={fontStyles.default}>Тест показал, с чем и как вам больше нравится работать.</p>
                     </div>
-                    <button onClick={routeChange}>Построить траекторию</button>
+                    <a href="/trajectoryGeneration" ><button onClick={routeChange}>Построить траекторию</button></a>
                 </header>
                 <Interests type={'subject'}
                            listData={props.subject.data}

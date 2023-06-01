@@ -36,23 +36,25 @@ function App() {
                     <Route path="checkboxes" element={<Checkbox/>}/>
                     <Route path="buttons" element={<Button size='large' title='Test'/>}/>
                     <Route path="radiobuttons" element={<RadioButton/>}/>
-                    <Route path="blogs" element={<Blogs/>} />
+                    <Route path="blogs" element={<Blogs/>}/>
                     <Route path="*" element={<NoPage/>}/>
                     <Route path="nav" element={<Navbar/>}></Route>
                     <Route path="card" element={<Card name="Программирование на Python" card_name="card_python"/>}/>
-                    <Route path="course" element={<Course />} />
-                    <Route path="registration" element={<Registration/>} />
-                    <Route path='calendar' element={<Calendar/>} />
-                    <Route path="directions" element={<Directions />} />
-                    <Route path="cards" element={<Cards/>} />
-                    <Route path="course_description" element={<CourseDescription courseName = "МУП ДМиМЛ_09 Дискретная математика и математическая логика" progress = "10%"
-                                                                                 annotation = "Дискретная математика - одна из важнейших составляющих современной математики. С одной стороны, она включает фундаментальные основы математики - теорию множеств, математическую логику, теорию алгоритмов; с другой стороны, является основным математическим аппаратом информатики и вычислительной техники и потому служит базой для многочисленных приложений в экономике, технике, социальной сфере."/>} />
-                    <Route path='allCourse' element={<AllCourse />} />
-                    <Route path='allTeachers' element={<AllTeachers />} />
-                    <Route path='trajectoryGeneration' element={<GenerateTrejectory />} />
+                    <Route path="course" element={<Course/>}/>
+                    <Route path="registration" element={<Registration/>}/>
+                    <Route path='calendar' element={<Calendar/>}/>
+                    <Route path="directions" element={<Directions/>}/>
+                    <Route path="cards" element={<Cards/>}/>
+                    <Route path="course_description" element={<CourseDescription
+                        courseName="МУП ДМиМЛ_09 Дискретная математика и математическая логика" progress="10%"
+                        annotation="Дискретная математика - одна из важнейших составляющих современной математики. С одной стороны, она включает фундаментальные основы математики - теорию множеств, математическую логику, теорию алгоритмов; с другой стороны, является основным математическим аппаратом информатики и вычислительной техники и потому служит базой для многочисленных приложений в экономике, технике, социальной сфере."/>}/>
+                    <Route path='allCourse' element={<AllCourse/>}/>
+                    <Route path='allTeachers' element={<AllTeachers/>}/>
+                    <Route path='trajectoryGeneration' element={<GenerateTrejectory/>}/>
                     <Route path="career_test" element={<CareerTest/>}/>
-                    <Route path='test' element={<Test />}/>
-                    <Route path="intermediateresult" element={<IntermediateResult data={[8.13, 17.08, 28.65, 17.56, 28.58]}/>}/>
+                    <Route path='test' element={<Test/>}/>
+                    <Route path="intermediateresult"
+                           element={<IntermediateResult data={[8.13, 17.08, 28.65, 17.56, 28.58]}/>}/>
                     <Route path="endresult" element={<EndResult subject={{
                         data: [83, 82, 78, 72, 32],
                         description: [
