@@ -1,0 +1,68 @@
+.register {
+    display: flex;
+    font-family: 'Montserrat';
+    font-style: normal;
+    align-items: center;
+    font-weight: 500;
+    color: #2B4A52;
+
+}
+
+.header__loginForm {
+    font-size: 34px;
+    line-height: 41px;
+    text-align: center;
+}
+
+.container__loginForm {
+    margin-left: 211px;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.input__loginForm {
+    display: block;
+    border: none;
+    border-bottom: 2px solid #2B4A52;
+    width: 550px;
+    padding: 6px 0;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.input__loginForm:hover,
+.input__loginForm:active,
+.input__loginForm:focus {
+    outline: 0;
+    border: none;
+    border-bottom: 2px solid #2B4A52;
+}
+
+.container__button_text {
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+
+.label {
+    display: block;
+}
+
+.passwordControl, .loginControl {
+    position: absolute;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    right: 1px;
+    bottom: -10px;
+    cursor: pointer;
+    background: url(../../img/hidepassword.svg) 0 0 no-repeat;
+}
+
+.loginControl {
+    background: url(../../img/login.svg) 0 0 no-repeat;
+}

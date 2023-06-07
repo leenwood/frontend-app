@@ -1,8 +1,8 @@
-import "./registration.css";
 import background from "../../img/reg_background.svg";
 import Button from "../ui-elements/button/Button";
 import { useRef } from "react";
 import {useForm} from "react-hook-form";
+import styles from "./regestration.module.css";
 
 
 function Image() {
@@ -12,9 +12,9 @@ function Image() {
 }
 
 function MergeButtonText() {
-	return <div className="container__button_text">
+	return <div className={styles.container__button_text}>
 		<Button title="Регистрация" size="extraLarge"/>
-		<p>У вас уже есть учётная запись? <a href="#">Войти</a></p>
+		<p>У вас уже есть учётная запись? <a href="/register">Войти</a></p>
 	</div>
 }
 
@@ -23,34 +23,36 @@ function RegestrationForm() {
 	const onSubmit = (d) => alert(JSON.stringify(d));
 	const password = useRef({});
 	password.currrent = watch("password", "");
-	return <form onSubmit={handleSubmit(onSubmit)} className="form__input">
-		<h2 className="header__form">Создать учётную запиcь</h2>
-		<div className="container__nameLastname flex">
-			<label>Фамилия
-				<input className="lastName" type="text" placeholder="Введите фамилию" {...register("lastName", {required: true, maxLength: 80})}/>
-				{errors?.lastName?.type === 'required' && <p className="error">Введите данные</p>}
+	return <form onSubmit={handleSubmit(onSubmit)} className={styles.form__input}>
+		<h2 className={styles.header__form}>Создать учётную запиcь</h2>
+		<div className={styles.container__nameLastname}>
+			<label className={styles.label}>Фамилия
+				<input className={styles.lastName} type="text" placeholder="Введите фамилию" {...register("lastName", {required: true, maxLength: 80})}/>
+				{errors?.lastName?.type === 'required' && <p className={styles.error}>Введите данные</p>}
 			</label>
-			<label>Имя
-				<input className="name" type="text" placeholder="Введите имя" {...register("firstName", {required: true, maxLength: 80})}/>
-				{errors?.firstName?.type === 'required' && <p className="error">Введите данные</p>}
+			<label className={styles.label}>Имя
+				<input className={styles.name} type="text" placeholder="Введите имя" {...register("firstName", {required: true, maxLength: 80})}/>
+				{errors?.firstName?.type === 'required' && <p className={styles.error}>Введите данные</p>}
 			</label>
 		</div>
-		<label>Отчество
-			<input type="text" placeholder="Введите отчество" {...register("fatherName", {required: true, maxLength: 80})}/>
-			{errors?.fatherName?.type === 'required' && <p className="error">Введите данные</p>}
+		<label className={styles.label}>Отчество
+			<input className={styles.input} type="text" placeholder="Введите отчество" {...register("fatherName", {required: true, maxLength: 80})}/>
+			{errors?.fatherName?.type === 'required' && <p className={styles.error}>Введите данные</p>}
 		</label>
-		<label>E-mail
-			<input type="email" placeholder="Введите email" {...register("email", {required: true, pattern: /^\S+@\S+$/i})}/>
-			{errors?.email?.type === 'required' && <p className="error">Введите данные</p>}
-			{errors?.email?.type === 'pattern' && <p className="error">Не правильно введён email</p>}
+		<label className={styles.label}>E-mail
+			<input className={styles.input} type="email" placeholder="Введите email" {...register("email", {required: true, pattern: /^\S+@\S+$/i})}/>
+			{errors?.email?.type === 'required' && <p className={styles.error}>Введите данные</p>}
+			{errors?.email?.type === 'pattern' && <p className={styles.error}>Не правильно введён email</p>}
 		</label>
-		<label>Пароль
-			<input name="password" type="password" placeholder="Введите пароль" {...register("password", {required: true, minLength: 8})}/>
-			{errors?.password?.type === 'required' && <p className="error">Введите данные</p>}
+		<label className={styles.label}>Пароль
+			<input className={styles.input} name="password" type="password" placeholder="Введите пароль" {...register("password", {required: true, minLength: 8})}/>
+			<p className={styles.passwordControl}></p>
+			{errors?.password?.type === 'required' && <p className={styles.error}>Введите данные</p>}
 		</label>
-		<label>Повторите пароль
-			<input type="password" placeholder="Введите пароль" {...register("password_repeat", {required: true, minLength: 8})}/>
-			{errors?.password_repeat?.type === 'required' && <p className="error">Введите данные</p>}
+		<label className={styles.label}>Повторите пароль
+			<input className={styles.input} type="password" placeholder="Введите пароль" {...register("password_repeat", {required: true, minLength: 8})}/>
+			<p className={styles.passwordControl}></p>
+			{errors?.password_repeat?.type === 'required' && <p className={styles.error}>Введите данные</p>}
 
 		</label>
 		<MergeButtonText /> 
@@ -67,7 +69,7 @@ function Merge() {
 
 
 function App() {
-	return <div className="flex">
+	return <div className={styles.flex}>
 		<Merge />
 	</div>
 }
