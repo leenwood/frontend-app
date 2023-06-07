@@ -3,12 +3,13 @@
     font-size: 24px;
     font-weight: 400;
     line-height: 29px;
-    
+    width: 1500px;
+
 }
 
 .course__container {
     padding: 25px 28px 25px 71px;
-    width: 1611px;
+    width: 1500px;
     height: 30px;
     background: #F9F9F9;
     border: 1px solid #2B4A52;
@@ -23,10 +24,12 @@
 }
 
 .checkbox__container {
+    margin-right: 100px;
     margin-top: -49px;
 }
 
 .blocks__container {
+    width: 1500px;
     display: none;
     margin-bottom: 15px;
 }

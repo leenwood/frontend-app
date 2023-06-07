@@ -29,6 +29,7 @@ table {
 .button__wrap {
     align-self: flex-end;
     margin-top: 49px;
+    margin-right: 100px;
 }
 
 .title__wrap {
