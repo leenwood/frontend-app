@@ -22,6 +22,8 @@ import CareerTest from "./pages/career-test/career-test";
 import Test from "./pages/career-test/test/test";
 import IntermediateResult from "./pages/results/intermediate-result/intermediate-result";
 import EndResult from "./pages/results/end-result/end-result";
+import MainPage from "./pages/main/main";
+import Register from './pages/autohorization/index';
 
 
 function App() {
@@ -82,6 +84,8 @@ function App() {
                                                                     'Творческая: ориентация на создание нового, поиск и увлеченность своим делом, генерацию идей. Такая карьера часто переходит в предпринимательскую.\n' +
                                                                     'Предпринимательская: ориентация на реализацию идей, рост статуса и благосостояния, стремление к независимости от внешних факторов.'}
                     />}/>
+                    <Route path='mainPage' element={<MainPage/>}/>
+                    <Route path='register' element={<Register/>}/>
                 </Route>
             </Routes>
         </BrowserRouter>

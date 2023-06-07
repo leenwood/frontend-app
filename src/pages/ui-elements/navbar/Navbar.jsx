@@ -22,7 +22,7 @@ const Navbar = () => {
                  onMouseLeave={() => setIsOpen(false)}>
                 <ul className={`${styles.navList}`}>
                     <li className={stylesNav.navbarItem}>
-                        <NavbarItem name={isOpen ? "Главная страница" : ""} link="/" iconUrl={homeIcon} />
+                        <NavbarItem name={isOpen ? "Главная страница" : ""} link="/mainPage" iconUrl={homeIcon} />
                     </li>
                     <li className={stylesNav.navbarItem}>
                         <NavbarItem name={isOpen ? "Личный кабинет" : ""} items={
