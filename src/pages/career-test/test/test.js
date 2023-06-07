@@ -12,8 +12,7 @@ class Test extends Component {
         super(props);
 
         this.state = {
-            questCount: 0,
-            link: 1
+            questCount: 1
         }
 
         this.increaseCount = this.increaseCount.bind(this);
@@ -30,33 +29,51 @@ class Test extends Component {
     )
 
     increaseCount(e)  {
+        e.preventDefault();
+
         let currentQuestCount = this.state.questCount;
+
+        if (currentQuestCount === 25) {
+            return;
+        }
 
         this.setState({
             questCount: currentQuestCount + 1
         })
-
-        e.preventDefault();
     };
 
-    decreaseCount(e){
+
+    resulting() {
         let currentQuestCount = this.state.questCount;
+
+        if (currentQuestCount === 25) {
+            return <Link to='/intermediateresult'>
+                <Button size='extraLarge' title='Посмотреть результат'/>
+            </Link>
+        }
+    }
+    decreaseCount(e){
+        e.preventDefault();
+
+        let currentQuestCount = this.state.questCount;
+
+        if (currentQuestCount === 1) {
+            return;
+        }
 
         this.setState({
             questCount: currentQuestCount - 1
         })
-
-        e.preventDefault();
     };
 
     render() {
         return(
                 <form>
                     <div className={s.content}>
-                        {this.questionsArray[this.state.questCount]}
+                        {this.questionsArray[this.state.questCount - 1]}
                     </div>
                     <div className={s.counter}>
-                        Вопрос {this.state.questCount + 1} из 25
+                        Вопрос {this.state.questCount} из 25
                     </div>
                     <div className={s.flex}>
                         <div onClick={this.decreaseCount}>
@@ -72,7 +89,11 @@ class Test extends Component {
                             <Button size='extraLarge' title='Далее'/>
                         </div>
                     </div>
+                    <div className={s.result}>
+                        {this.resulting()}
+                    </div>
                 </form>
+
         );
     }
 }
