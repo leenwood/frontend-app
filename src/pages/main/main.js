@@ -1,5 +1,6 @@
 import styles from "./mainStyle.module.css";
 import Button from "../ui-elements/button/Button";
+import { useNavigate, Link } from "react-router-dom";
 
 function Header() {
     return <header className={styles.header}>
@@ -10,13 +11,18 @@ function Header() {
                 </svg>
             </div>
 
-            <a href="/register"><Button title="Войти" size="extraLarge" href="" onclick='javascript:location.href="/mainPage";'/></a>
-            <a href="/registration"><Button title="Регистрация" size="extraLarge" /></a>
+            <Link to="/register"><Button title="Войти" size="extraLarge" href="" onclick='javascript:location.href="/mainPage";' /></Link>
+            <Link to="/registration"><Button title="Регистрация" size="extraLarge" /></Link>
         </div>
     </header>
 }
 
 function Content() {
+    const navigate = useNavigate();
+
+    const handleClick = () => {
+        navigate('/career_test');
+    };
     return <div className={styles.main__content}>
         <div className={styles.main__content_left}>
             <h1 className={styles.main__content_header}>
@@ -24,12 +30,12 @@ function Content() {
             </h1>
             Наш сервис поможет вам в выборе будущей професии и подборе оптимальной образовательной траектории.
         </div>
-        <a href="/career_test" className={styles.main__content_right}>
+        <div onClick={handleClick} className={styles.main__content_right}>
             <div>
                 <div>Определить профессию будущего</div>
                 <div className={styles.container__array}>&rarr;</div>
             </div>
-        </a>
+        </div>
     </div>
 
 }

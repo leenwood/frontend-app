@@ -1,6 +1,7 @@
 import styles from "./register.module.css";
 import background from "../../img/reg_background.svg";
 import Button from "../ui-elements/button/Button";
+import {Link} from "react-router-dom";
 
 function Image() {
     return (
@@ -10,7 +11,7 @@ function Image() {
 
 function MergeButtonText() {
     return <div className={styles.container__button_text}>
-        <a href="/mainPage"><Button title="Регистрация" size="extraLarge" /></a>
+        <Link to="/mainPage"><Button title="Регистрация" size="extraLarge" /></Link>
         <p>У вас нет учётной записи? <a href="/registration">Зарегестрироваться</a></p>
     </div>
 }
