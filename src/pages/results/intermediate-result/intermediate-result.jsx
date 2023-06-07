@@ -62,7 +62,7 @@ const chartOptions = {
 const IntermediateResult = (props) => {
     const navigate = useNavigate();
     const routeChange = () => {
-        navigate('/#');
+        navigate('/endresult');
     }
 
     return (
