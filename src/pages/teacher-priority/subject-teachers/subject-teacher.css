@@ -1,9 +1,9 @@
 .container {
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     font-weight: 400;
     line-height: 29px;
-    
+
 }
 
 .teachers__container {
@@ -11,7 +11,7 @@
     height: 30px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: end;
     margin-bottom: 15px;
     cursor: pointer;
 }

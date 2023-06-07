@@ -57,7 +57,7 @@ const Navbar = () => {
                     </li>
                 </ul>
             </nav>
-            <div className="outlet">
+            <div className={styles.outlet}>
                 <Outlet />
             </div>
         </>
