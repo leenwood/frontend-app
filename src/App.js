@@ -24,6 +24,7 @@ import IntermediateResult from "./pages/results/intermediate-result/intermediate
 import EndResult from "./pages/results/end-result/end-result";
 import MainPage from "./pages/main/main";
 import Register from './pages/autohorization/index';
+import RecommendedProfessions from "./pages/recommended-professions/Recommended-professions";
 
 
 function App() {
@@ -55,6 +56,24 @@ function App() {
                     <Route path='trajectoryGeneration' element={<GenerateTrejectory/>}/>
                     <Route path="career_test" element={<CareerTest/>}/>
                     <Route path='test' element={<Test/>}/>
+                    <Route path='recommended_profs' element={<RecommendedProfessions cardsData={[
+                        {
+                            name: 'Веб-разработчик',
+                            date: '12.09.2022'
+                        },
+                        {
+                            name: 'Бизнес-аналитик',
+                            date: '10.09.2022'
+                        },
+                        {
+                            name: 'Инженер по тестированию',
+                            date: '02.04.2022'
+                        },
+                        {
+                            name: 'IOS-разработчик',
+                            date: '02.04.2022'
+                        }
+                    ]}/>}/>
                     <Route path="intermediateresult"
                            element={<IntermediateResult data={[8.13, 17.08, 28.65, 17.56, 28.58]}/>}/>
                     <Route path="endresult" element={<EndResult subject={{

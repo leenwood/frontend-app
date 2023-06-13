@@ -27,5 +27,9 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 40px 70px 30px;
+    padding: 40px 0;
+}
+
+.secHeader {
+    text-align: center;
 }
