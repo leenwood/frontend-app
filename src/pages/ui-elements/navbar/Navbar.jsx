@@ -35,7 +35,7 @@ const Navbar = () => {
                     <li className={stylesNav.navbarItem}>
                         <NavbarItem name={isOpen ? "ИОТ" : ""} items={
                             [
-                                { name: 'Все курсы ИОТ', link: '/cards' },
+                                { name: 'Все курсы ИОТ', link: '/all_subjects' },
                                 { name: 'Рекомендованные траектории', link: '/cards' },
                                 { name: 'Курсы в рамках направления', link: '/cards' },
                             ]

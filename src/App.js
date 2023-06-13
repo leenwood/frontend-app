@@ -22,6 +22,7 @@ import CareerTest from "./pages/career-test/career-test";
 import Test from "./pages/career-test/test/test";
 import IntermediateResult from "./pages/results/intermediate-result/intermediate-result";
 import EndResult from "./pages/results/end-result/end-result";
+import Subjects from './pages/all-subject/all-sublect';
 
 
 function App() {
@@ -83,6 +84,7 @@ function App() {
                                                                     'Предпринимательская: ориентация на реализацию идей, рост статуса и благосостояния, стремление к независимости от внешних факторов.'}
                     />}/>
                 </Route>
+                <Route path='all_subjects' element={<Subjects/>}/>
             </Routes>
         </BrowserRouter>
     );

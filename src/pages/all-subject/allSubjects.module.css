@@ -1,0 +1,73 @@
+.all_subject {
+    margin-left: 70px;
+    margin-top: 50px;
+    width: 1302px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000
+}
+
+.container__subjects {
+    display: flex;
+    overflow-x: scroll;
+}
+
+.row_subjects {
+    margin-right: 60px;
+}
+
+.number_semester {
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.color_descriptionSubject {
+    margin-top: 57px;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    width: 531px;
+}
+
+.block {
+    border: 5px solid #2B4A52;
+    border-radius: 10px;
+    width: 43px;
+    height: 43px;
+    margin-right: 25px;
+}
+
+.math_block {
+    width: 240px;
+}
+
+.math {
+    background-color: #FFDF80;
+}
+
+.programming {
+    background-color: #99E5B2;
+}
+
+.natural {
+    background-color: #FFC5BD;
+}
+
+.humanitarian {
+    background-color: #CA9EFF;
+}
+
+.analytical {
+    background-color: #66BFFF;
+}
