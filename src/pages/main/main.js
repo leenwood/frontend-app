@@ -11,8 +11,8 @@ function Header() {
                 </svg>
             </div>
 
-            <Link to="/register"><Button title="Войти" size="extraLarge" href="" onclick='javascript:location.href="/mainPage";' /></Link>
-            <Link to="/registration"><Button title="Регистрация" size="extraLarge" /></Link>
+            <Link to="/directions"><Button title="Войти" size="extraLarge" href="" onclick='javascript:location.href="/mainPage";' /></Link>
+            <Link to="/directions"><Button title="Регистрация" size="extraLarge" /></Link>
         </div>
     </header>
 }
@@ -42,7 +42,7 @@ function Content() {
 
 
 function mainPage() {
-    return <div className={styles.mainPage}>
+    return <div style={{marginLeft: -100 + 'px'}} className={styles.mainPage}>
         <Header />
         <Content />
     </div>
