@@ -5,7 +5,6 @@ import "./all-teachers.css"
 
 function AllTeachers() {
    const arOptions = taskData.academic_subject;
-   console.log({arOptions})
    const listTeachers = arOptions.map((arOption, index) => 
       <CourseTeacher titleValue={arOption.subject} titleTeachers={arOption.teachers} ID={index + 1000}/>
    )

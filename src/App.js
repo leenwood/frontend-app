@@ -24,6 +24,7 @@ import IntermediateResult from "./pages/results/intermediate-result/intermediate
 import EndResult from "./pages/results/end-result/end-result";
 import MainPage from "./pages/main/main";
 import Register from './pages/autohorization/index';
+import Subjects from './pages/all-subject/all-sublect';
 
 
 function App() {
@@ -87,6 +88,7 @@ function App() {
                     <Route path='register' element={<Register/>}/>
                 </Route>
 		<Route path='mainPage' element={<MainPage/>}/>
+                <Route path='all_subjects' element={<Subjects/>}/>
             </Routes>
         </BrowserRouter>
     );
