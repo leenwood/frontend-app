@@ -86,9 +86,9 @@ function App() {
                                                                     'Предпринимательская: ориентация на реализацию идей, рост статуса и благосостояния, стремление к независимости от внешних факторов.'}
                     />}/>
                     <Route path='register' element={<Register/>}/>
+                    <Route path='all_subjects' element={<Subjects/>}/>
                 </Route>
-		<Route path='mainPage' element={<MainPage/>}/>
-                <Route path='all_subjects' element={<Subjects/>}/>
+		        <Route path='mainPage' element={<MainPage/>}/>
             </Routes>
         </BrowserRouter>
     );
