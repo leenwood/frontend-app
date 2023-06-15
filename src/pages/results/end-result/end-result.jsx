@@ -81,10 +81,10 @@ const EndResult = (props) => {
                 <section>
                     <h2 className={fontStyles.secondaryHeader}>Профессии, которые вам подходят или находятся на стыке интересов</h2>
                     <ul className={styles.professionCardsList}>
-                        <ProfessionCard name={'Веб-разработчик'} coincidence={64}/>
-                        <ProfessionCard name={'Бизнес-аналитик'} coincidence={62}/>
-                        <ProfessionCard name={'Инженер по тестированию'} coincidence={61}/>
-                        <ProfessionCard name={'IOS-разработчик'} coincidence={60}/>
+                        <ProfessionCard name={'Веб-разработчик'} coincidence={64} inResult={true}/>
+                        <ProfessionCard name={'Бизнес-аналитик'} coincidence={62} inResult={true}/>
+                        <ProfessionCard name={'Инженер по тестированию'} coincidence={61} inResult={true}/>
+                        <ProfessionCard name={'IOS-разработчик'} coincidence={60} inResult={true}/>
                     </ul>
                 </section>
             </main>

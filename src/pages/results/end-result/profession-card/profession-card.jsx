@@ -10,16 +10,20 @@ const ProfessionCard = (props) => {
         navigate('/#');
     };
 
+    const subText = props.inResult
+        ? <p className={fontStyles.default}>Совпадение на {props.coincidence}%</p>
+        : <p className={fontStyles.default}>Пройден: {props.date}</p>
+
     return (
         <div className={styles.card}>
             <div className={styles.headerWrapper}>
-                <h3 className={fontStyles.secondaryHeader}>{props.name}</h3>
+                <h3 className={`${fontStyles.secondaryHeader} ${styles.secHeader}`}>{props.name}</h3>
             </div>
             <div className={styles.mainWrapper}>
                 <div onClick={routeChange}>
                     <Button size={'extraLarge'} title={'Посмотреть'}/>
                 </div>
-                <p className={fontStyles.default}>Совпадение на {props.coincidence}%</p>
+                {subText}
             </div>
         </div>
     )
