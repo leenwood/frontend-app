@@ -47,7 +47,7 @@ const Navbar = () => {
                     <li className={stylesNav.navbarItem}>
                         <NavbarItem name={isOpen ? "Профессии" : ""} items={
                             [
-                                { name: 'Библиотека профессий', link: '#' },
+                                { name: 'Библиотека профессий', link: '/recommended_profs' },
                                 { name: 'Рекомендуемые профессии', link: '/recommended_profs' },
                             ]
                         } iconUrl={recsIcon}/>
